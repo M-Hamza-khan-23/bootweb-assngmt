@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Bootstrap</title>
+    <style>
+      *{
+        padding: 0%
+      }
+      .navbar{
+        padding-bottom: 30px;
+      }
+        img{
+            width:100%;
+            height:180px
+        }
+        iframe{
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
+        /* a img{
+          height: 45px !important;
+        } */
+        .row{
+          padding-top: 40px;
+          padding-bottom: 40px;
+        }
+        footer{
+          background-color: white;
+          color: black;
+
+        }
+        /* media only screen and (max-width:786px)
+
+        .nav1{ display: none !important;
+           
+        }
+        nav2{
+          display: block !important;
+        }
+        media only screen and (max-width:787px)
+
+.nav2{ display: block !important;
+   
+}
+nav1{
+  display: none !important; }*/
+
+    </style>
+  </head>
+  <body>
+    
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-sm bg-body-tertiary nav1" style="background-color: white !important;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><p style="color: blue; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Tesla</p></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navbarSupportedContent">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- <center>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14416.68631489182!2d68.3529261!3d25.399066649999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x394c70bee496be25%3A0x5547e785dfa7dc53!2sCantonment%2C%20Hyderabad%2C%20Sindh!5e0!3m2!1sen!2s!4v1691857342828!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </center> -->
+    <div>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./electric-car-station-charging.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./front-view-high-speed-silver-sport-car-driving-highway.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./white-modern-sport-car-parking-road.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col mt-4 col-lg-3 col-md-4 col-sm-6 col-12">
+            <div class="card">
+                <img src="./front-view-high-speed-silver-sport-car-driving-highway.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tesla Model X</h5>
+                  <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                  <a href="#" class="btn btn-primary">47,299$</a>
+                </div>
+              </div>
+        </div>
+        <div class="col mt-4 col-lg-3 col-md-4 col-sm-6 col-12">
+            <div class="card">
+                <img src="./white-modern-sport-car-parking-road.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tesla Model Y</h5>
+                  <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                  <a href="#" class="btn btn-primary">49,499$</a>
+                </div>
+              </div>
+        </div>
+        <div class="col mt-4 col-lg-3 col-md-4 col-sm-6 col-12">
+            <div class="card">
+                <img src="./electric-car-station-charging.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tesla Model Z</h5>
+                  <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                  <a href="#" class="btn btn-primary">48,599$</a>
+                </div>
+              </div>
+        </div>
+        <div class="col mt-4 col-lg-3 col-md-4 col-sm-6 col-12">
+            <div class="card">
+                <img src="./front-view-high-speed-silver-sport-car-driving-highway.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tesla Model X Modified</h5>
+                  <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                  <a href="#" class="btn btn-success">55,399$</a>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div id="carouselExample1" class="carousel slide">
+        <div class="carousel-inner" style="background-color: lightgrey;">
+          <div class="carousel-item active">
+            <div class="card" style="width:320px;margin: auto;display: block;">
+              <!-- <img src="./f50a87579c8187f0.jpg" class="card-img-top" alt="..."> -->
+              <div class="card-body">
+                <h5 class="card-title" style="text-align: center;">Review</h5>
+                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                <a href="#" class="btn btn-success">Like</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col mt-4">
+              <div class="card" style="width:320px;margin: auto;display: block;">
+                  <!-- <img src="./e4972d209d8ddb51-tn.jpg" class="card-img-top" alt="..."> -->
+                  <div class="card-body">
+                    <h5 class="card-title" style="text-align: center;">Review</h5>
+                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                    <a href="#" class="btn btn-danger">Dislike</a>
+                  </div>
+                </div>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col mt-4">
+              <div class="card" style="width:320px;margin: auto;display: block;">
+                  <!-- <img src="./896790.png" class="card-img-top" alt="..."> -->
+                  <div class="card-body">
+                    <h5 class="card-title" style="text-align: center;">Review</h5>
+                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                    <a href="#" class="btn btn-warning">Suggestions</a>
+                  </div>
+                </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <center>
+      <footer>
+        &copy; HAMZA KHAN ZAI
+      </footer>
+    </center>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
